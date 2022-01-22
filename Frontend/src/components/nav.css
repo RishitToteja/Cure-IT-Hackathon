@@ -1,0 +1,108 @@
+ 
+*{
+    z-index: 3;
+}
+
+a{
+    text-decoration: none;
+    color: cornsilk;
+}
+.name{
+    margin-left: -200px;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+}
+.name{
+    backdrop-filter: saturate(180%) blur(8px);
+    box-shadow: var(--header-border-bottom);
+    transition: box-shadow .2s ease 0s,background-color .2s ease 0s;
+    background-color: var(--header-background);
+    position: sticky;
+    font-family: 'The Nautigal', cursive;
+    font-size: 60px;
+}
+.container{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    /* padding-left: 10px; */
+    text-align: center;
+    align-items: center; 
+    height: 100px;
+    /* padding: 10px; */
+    font-size: 20px;
+    padding-right: -90px;
+    backdrop-filter: saturate(180%) blur(8px);
+    box-shadow: var(--header-border-bottom);
+    transition: box-shadow .2s ease 0s,background-color .2s ease 0s;
+    background-color: var(--header-background);
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 5px 1px #36775963;
+}  
+
+.home{
+    background-color: var(--header-background);
+}
+
+.aidoc{
+    background-color: var(--header-background);
+}
+
+.hosp{
+    background-color: var(--header-background);
+}
+
+.about{
+    background-color: var(--header-background);
+}
+
+.home{
+    margin-left: 500px;
+}
+
+.aidoc{
+    margin-left: 30px;
+}
+.hosp{
+    margin-left: 30px;
+}
+
+.about{
+    margin-left: 30px;
+    margin-right: -200px;
+}
+ .space{
+     width: 200px;
+    } 
+
+
+    .bn3637 {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.7rem -1rem;
+        font-weight: 700;
+        font-size: 18px;
+        text-align: center;
+        text-decoration: none;
+        color: #fff;
+        backface-visibility: hidden;
+        border: 0.5rem solid transparent;
+        border-radius: 15px;
+      }
+      .bn38 {
+        border-color: transparent;
+        transition: background-color 0.3s ease-in-out;
+      }
+        
+      .bn38:hover {
+        background-color: #60605e;
+      }

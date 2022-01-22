@@ -1,0 +1,110 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Hello doctor",
+        "Hello AI Doctor",
+        "I need help",
+        "I need advise"
+      ],
+      "responses": [
+        "Hi, I am your AI Doctor",
+        "Hey, meet your AI Doctor",
+        "Hello, I am your AI Doctor",
+        "Let me know your troubles today",
+        "Are you feeling well today?",
+        "How are you feeling today?",
+        "How can I help you today?",
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "See you", "Bye bye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "It was pleasure to help you",
+        "Helping you was my pleasure",
+        "Hope you get well soon",
+        "Keep me posted about your health",
+        "Take care of your health",
+        "Bye! Take your medicines on time"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!", "Thanks a lot", "Thank you doctor", "Thank you for your help", "Thank you"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure", "Helping you was my pleasure",
+        "Hope you get well soon"]
+    },
+    {
+      "tag": "first-aid",
+      "patterns": [
+        "I need first aid",
+        "Emergency",
+        "I need emergency help",
+        "I need help",
+        "Save me",
+        "I want to call ambulance",
+        "I need ambulance"
+      ],
+      "responses": [
+        "You can contact your local hospital",
+        "You can get your ambulance at 112",
+        "You can call 112",
+        "You can call 911",
+        "You can call your local hospital",
+        "Reach your local hospital"
+      ]
+    },
+    {
+      "tag": "tips",
+      "patterns": [
+        "Tell me a tip",
+        "How can I take care of my health?",
+        "What should I do to stay healthy?",
+        "I want to become fit",
+        "Help me to become fit",
+        "I want to stay active"
+      ],
+      "responses": [
+        "Measure and Watch Your Weight",
+        "Eat Healthy",
+        "Exercise",
+        "Limit Unhealthy Foods and Eat Healthy Meals",
+        "Drink Water and Stay Hydrated, and Limit Sugared Beverages",
+        "Get Enough Good Sleep"
+      ]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": [
+        "Doctor, I am having cough",
+        "I am not feeling well",
+        "I have a fever",
+        "I have a headache",
+        "I have a sore throat",
+        "I have a runny nose"
+      ],
+      "responses": [
+        "I think you need assistance, contact your doctor",
+        "Contact our helpline at 9001",
+        "Get a prescription from your doctor",
+        "Take some rest and contact your doctor",
+        "I believe you need some medical attention"
+      ]
+    }
+    
+  ]
+}
